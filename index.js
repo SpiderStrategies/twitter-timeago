@@ -16,6 +16,10 @@ module.exports = function (timestamp) {
     timestamp = +timestamp
   }
 
+  if (typeof timestamp === 'string') {
+    timestamp = +new Date(timestamp)
+  }
+
   var diff = Math.abs(timestamp - +new Date)
     , num = null
 

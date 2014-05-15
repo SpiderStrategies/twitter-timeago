@@ -1,0 +1,29 @@
+{
+  "name": "twitter-timeago",
+  "version": "1.0.0",
+  "description": "Format dates in a twitter timeago format",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SpiderStrategies/twitter-timeago.git"
+  },
+  "keywords": [
+    "twitter",
+    "timeago",
+    "twitter-date",
+    "date",
+    "dateformat"
+  ],
+  "author": "Nathan Bowser <nathan.bowser@spiderstrategies.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpiderStrategies/twitter-timeago/issues"
+  },
+  "homepage": "https://github.com/SpiderStrategies/twitter-timeago",
+  "devDependencies": {
+    "moment": "^2.6.0"
+  }
+}

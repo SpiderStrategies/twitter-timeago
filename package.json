@@ -1,6 +1,6 @@
 {
   "name": "twitter-timeago",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Format dates in a twitter timeago format",
   "main": "index.js",
   "scripts": {

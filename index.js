@@ -13,14 +13,14 @@ var second = 1e3
 
 module.exports = function (timestamp) {
   if (timestamp instanceof Date) {
-    timestamp = +timestamp
+    timestamp = timestamp.getTime()
   }
 
   if (typeof timestamp === 'string') {
-    timestamp = +new Date(timestamp)
+    timestamp = new Date(timestamp).getTime()
   }
 
-  var diff = Math.abs(timestamp - +new Date)
+  var diff = Math.abs(timestamp - Date.now())
     , num = null
 
   if (diff <= second) {
